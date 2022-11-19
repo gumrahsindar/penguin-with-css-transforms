@@ -77,3 +77,19 @@ body {
     left: 25%;
     z-index: 1;
 }
+
+.face {
+    width: 60%;
+    height: 70%;
+    background-color: var(--penguin-face);
+    border-radius: 70% 70% 60% 60%;
+    top: 15%;
+}
+
+.face.left {
+    left: 5%;
+}
+
+.face.right {
+    right: 5%;
+}
