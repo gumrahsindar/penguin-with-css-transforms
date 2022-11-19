@@ -31,8 +31,11 @@ body {
     z-index: 1;
     transform: rotate(45deg);
     left: 110px;
+
+
     top: 225px;
 }
+
 .sun {
     width: 200px;
     height: 200px;
@@ -41,4 +44,22 @@ body {
     border-radius: 50%;
     top: -75px;
     right: -75px;
+}
+
+.penguin {
+    width: 300px;
+    height: 300px;
+    margin: 75px auto auto;
+    z-index: 4;
+    position: relative;
+    transition: transform 1s ease-in-out 0ms;
+}
+
+.penguin * {
+    position: absolute;
+}
+
+.penguin:active {
+    transform: scale(1.5);
+    cursor: not-allowed;
 }
