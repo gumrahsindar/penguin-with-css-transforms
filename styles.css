@@ -67,11 +67,9 @@ body {
 .penguin-head {
     width: 50%;
     height: 45%;
-    background: linear-gradient(
-            45deg,
+    background: linear-gradient(45deg,
             var(--penguin-skin),
-            rgb(239, 240, 228)
-    );
+            rgb(239, 240, 228));
     border-radius: 70% 70% 65% 65%;
     top: 10%;
     left: 25%;
@@ -117,4 +115,29 @@ body {
 
 .eye.right {
     right: 25%;
+}
+
+.eye-lid {
+    width: 150%;
+    height: 100%;
+    background-color: var(--penguin-face);
+    top: 25%;
+    left: -23%;
+    border-radius: 50%;
+}
+
+.blush {
+    width: 15%;
+    height: 10%;
+    background-color: pink;
+    top: 65%;
+    border-radius: 50%;
+}
+
+.blush.left {
+    left: 15%;
+}
+
+.blush.right {
+    right: 15%;
 }
