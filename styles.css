@@ -239,3 +239,22 @@ body {
         transform: rotate(130deg) scaleX(-1);
     }
 }
+
+.foot {
+    width: 15%;
+    height: 30%;
+    background-color: var(--penguin-picorna);
+    top: 85%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.foot.left {
+    left: 25%;
+    transform: rotate(80deg);
+}
+
+.foot.right {
+    right: 25%;
+    transform: rotate(-80deg);
+}
